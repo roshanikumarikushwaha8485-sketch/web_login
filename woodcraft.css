@@ -1,0 +1,38 @@
+.background{
+    width: 100vw;
+    height: 100vh;
+    background-color:  #c49f75; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.left{
+    width: 25vw;
+    height: 60vh;
+
+}
+.container{
+    background-color: white;
+    width: 50vw;
+    height: 60vh;
+    display: flex;
+}
+.right{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+}
+.button-grp{
+    
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 15vw;
+}
